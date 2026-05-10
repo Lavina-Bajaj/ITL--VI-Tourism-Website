@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #0a9396;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+ 
+.hero {
+    background: url('mountain.png') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+
+/* CARDS */
+.places {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FORM */
+input, textarea {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0a9396;
+    color: white;
+    border: none;
+}
